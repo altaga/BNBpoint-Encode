@@ -80,8 +80,7 @@ Toda la implementacion esta en el codigo de POS en la funcion xTransferToken.
 
 La wallet principal es compatible con las 6 redes disponibles el connext, Ethereum, Optimism, Polygon, Arbitrum, BSC y Gnosis, puedes seleccionar la que sera por defecto para pagar.
 
-<img src="https://i.ibb.co/khn3ZYV/vlcsnap-2023-05-12-16h27m34s190.png" width="32%">
-<img src="https://i.ibb.co/4T7QChK/vlcsnap-2023-05-12-16h27m27s788.png" width="32%">
+<img src="https://i.ibb.co/khn3ZYV/vlcsnap-2023-05-12-16h27m34s190.png" width="32%"> <img src="https://i.ibb.co/4T7QChK/vlcsnap-2023-05-12-16h27m27s788.png" width="32%">
 
 - In turn, through Rapyd and BSC we can have total control of the movements and transactions of our account in both Crypto and Fiat.
 
