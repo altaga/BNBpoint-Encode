@@ -46,7 +46,7 @@ BNBpoint is a Mobile-First wallet, cash out ramp and Point of Sale Superapp. We 
 
 System's Architecture:
 
-<img src="https://i.ibb.co/xXTjVp6/Scheme-drawio.png">
+<img src="https://i.ibb.co/sFDnB9B/Scheme-drawio-1.png">
 
 - All BSC and Cross-chain transactions are controlled through [web3.js](https://web3js.readthedocs.io/en/v1.8.0/) and [WalletConnect](https://walletconnect.com/) on mainnet.
 
