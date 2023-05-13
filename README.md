@@ -70,7 +70,7 @@ Para mandar cualquier token desde cualquier red, nos comunicamos con el contrato
 
 En nuestra implementacion actualizada a 5/13/2023, los tokens que podemos mandar crosschain son USDC, USDT, WETH y DAI.
 
-<img src="https://i.ibb.co/FDCb8kk/Scheme-Connext-drawio.png">
+<img src="https://i.ibb.co/vxC2kd2/Scheme-Connext-drawio.png">
 
 Toda la implementacion esta en el codigo de POS en la funcion xTransferToken.
 
