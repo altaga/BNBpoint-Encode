@@ -50,8 +50,6 @@ System's Architecture:
 
 - All BSC and Cross-chain transactions are controlled through [web3.js](https://web3js.readthedocs.io/en/v1.8.0/) and [WalletConnect](https://walletconnect.com/) on mainnet.
 
-- Thanks to the Rapyd APIs we can manage users, checkout, swap and KYC of our app. (https://www.rapyd.net/)
-
 - Through Rapyd's APIs we can manage users, checkout, swap and KYC of our app. (https://www.rapyd.net/)
 
 - Wallet Connect is used as a secure connection to transmit the Point of Sale transactions to the Wallet, this connection is similar to a WebSocketSecure method and is widely adopted in EVM wallets.
