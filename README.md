@@ -1,4 +1,4 @@
-# BNBpoint
+To send any token from any network, we communicate with the main Connext contract in each of the chains, all contracts have the same function to send money from one chain to another.# BNBpoint
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) [<img src="https://img.shields.io/badge/View-Video-red">](pending)
 
@@ -66,7 +66,7 @@ System's Architecture:
 
 All transactions that require transfers from one chain to another we use the [Connext SDK](https://www.npmjs.com/package/@connext/smart-contracts).
 
-Para mandar cualquier token desde cualquier red, nos comunicamos con el contrato principal de Connext en cada una de las chains, todos los contratos poseen la misma funcion para mandar dinero de una chain a otra.
+To send any token from any network, we communicate with the main Connext contract in each of the chains, all contracts have the same function to send money from one chain to another.
 
     connext.xcall{value: relayerFee}(
         destinationDomain, // Domain ID of the destination chain
@@ -78,17 +78,17 @@ Para mandar cualquier token desde cualquier red, nos comunicamos con el contrato
         "" // Nothing in this case
     );
 
-En nuestra implementacion actualizada a 5/13/2023, los tokens que podemos mandar crosschain son USDC, USDT, WETH y DAI.
+In our implementation updated to 5/13/2023, the tokens that we can send crosschain are USDC, USDT, WETH and DAI.
 
 <img src="https://i.ibb.co/vxC2kd2/Scheme-Connext-drawio.png">
 
-Toda la implementacion esta en el codigo de POS en la funcion xTransferToken.
+The entire implementation is in the Point of Sale code in the xTransferToken function.
 
 [xTransferToken CODE](./BNBpoint-POS-RN/src/screens/wcComponent.js)
 
 # Main App Screens:
 
-La wallet principal es compatible con las 6 redes disponibles el connext, Ethereum, Optimism, Polygon, Arbitrum, BSC y Gnosis, puedes seleccionar la que sera por defecto para pagar.
+The main wallet is compatible with the six available networks for Connext: Ethereum, Optimism, Polygon, Arbitrum, BSC and Gnosis, you can select the one that will be the default to pay.
 
 <img src="https://i.ibb.co/khn3ZYV/vlcsnap-2023-05-12-16h27m34s190.png" width="32%"> <img src="https://i.ibb.co/4T7QChK/vlcsnap-2023-05-12-16h27m27s788.png" width="32%">
 
