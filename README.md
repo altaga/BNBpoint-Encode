@@ -52,6 +52,16 @@ System's Architecture:
 
 - Thanks to the Rapyd APIs we can manage users, checkout, swap and KYC of our app. (https://www.rapyd.net/)
 
+- Through Rapyd's APIs we can manage users, checkout, swap and KYC of our app. (https://www.rapyd.net/)
+
+- Wallet Connect is used as a secure connection to transmit the Point of Sale transactions to the Wallet, this connection is similar to a WebSocketSecure method and is widely adopted in EVM wallets.
+
+- ChainLink is used for its price feeds for each of the most popular assets in the cryptocurrency market.
+
+- Swap is the only section of our platform that we coordinate Fiat and Crypto services to exchange cryptocurrencies to dollars, this being BNB to USD.
+
+- Connext es el servicio de bridge on-chain para realizar las transferencias de un chain a otra, todas las transacciones sobre esta network se pueden ver en el explorer de Connext. https://connextscan.io/address/0x4Cda9fEB9aF312B6FC6F716EE4415e6a52e0672C
+
 # Cross-chain Transfers:
 
 All transactions that require transfers from one chain to another we use the [Connext SDK](https://www.npmjs.com/package/@connext/smart-contracts).
