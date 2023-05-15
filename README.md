@@ -61,6 +61,7 @@ System's Architecture:
 - Swap is the only section of our platform that we coordinate Fiat and Crypto services to exchange cryptocurrencies to dollars, this being BNB to USD.
 
 - Connext es el servicio de bridge on-chain para realizar las transferencias de un chain a otra, todas las transacciones sobre esta network se pueden ver en el explorer de Connext. 
+
 https://connextscan.io/address/0x4Cda9fEB9aF312B6FC6F716EE4415e6a52e0672C
 
 # Cross-chain Transfers:
