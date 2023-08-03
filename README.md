@@ -1,6 +1,6 @@
 To send any token from any network, we communicate with the main Connext contract in each of the chains, all contracts have the same function to send money from one chain to another.# BNBpoint
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) [<img src="https://img.shields.io/badge/View-Video-red">](pending)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) [<img src="https://img.shields.io/badge/View-Video-red">](https://www.youtube.com/watch?v=5kdGAzHNY3g)
 
 <img src="https://i.ibb.co/rmyZzXt/logoETH.png" width="50%">
 
@@ -18,7 +18,7 @@ POS App APK: [LINK](./BNBpoint-POS-APK/app-release.apk)
 
 ## Here is our main demo video:
 
-[![Demo](https://i.ibb.co/g4W3ypx/image.png)](pending)
+[![Demo](https://i.ibb.co/g4W3ypx/image.png)](https://www.youtube.com/watch?v=5kdGAzHNY3g)
 
 # Introduction and Problem
 
